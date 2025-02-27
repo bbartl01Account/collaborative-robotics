@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "winged-complex-448806-d7",
+  "private_key_id": "1c422cf646072ff99e9720ef6e188ad25ef62993",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuqaSl+zFKL7Pp\nwZslWi0pNeBw/n4HJNWEssv4bgljSX+xw9ZsQRlYnVjUdNxn0fHUCx+FpfUpCo5O\nwpjX/nlp1n0VyIqAAFIp/nP1qr0ihGznNOj8bfKd67z0mbpv8XsXwtATc3+kbJlU\nkHSYmdV1hLTxvMdSILUyh4Vn5etx7QIim2ld2/1j15azcGjKDJHqg5AyIwwBptcd\nPvT8/CKDXxbcL5DLJ6bfCVR9HKHNGyBl6t7K9Elx737ly9Gtf9h2QQPI0w/nNO/Z\ne4rdAAojbwrDMxeamNGdSdlGnBRLJdx8DUph722rfnKlog5E4ZrPGYwaoFfZNle6\nfA7x2mdVAgMBAAECggEABl3uv5IxkMe+YjYJhsoLvWXWYagVRgNkuSqfXtX8B5+F\nRSCjb1zMJLvPoicEZdB0ZUtmgcOz9SQKXfqgAbeoC2CjPKkLy3C3jgpVhc4MiPaU\n1bTLDXCgmHsgbzYvYqdF2m7ikOLz8zV2PWvqpClva5JD2lAMYAULNeVUyp3KAGQY\n6kuGhPE0FzKwVpSxzA5aAu90FohR1wWxLO94x1W9JpN4MMJRH0Kn92HlXW8zuy7P\nKdugCmv/FULIGDiRtecj4Gx3cxQbFLg7XrpbWnqr4Qcjuu0mEC+Kw3q+eUN2NjAN\n2t79I0W/F3UZdz3mOPOB6iylh5oGGUGji3ePSexEfQKBgQDkh9bPbpewIHtAcNrU\nlMMvzf+8uF0C3QP2Ld9REPpaDyW4UooOXP5wlx9BvoyA9TinFvcqeVZ+/H0ZVPQX\njN5sw1F5VB0MIcPczchnD1r9jgbypplPPe2hJUrzyxhTt/n7dvyo2fyOhfKVJXhQ\nQTt21rpE5N3RDJmyut7DaGPGQwKBgQDDqDj+nORkXb7B7L9UedoJ/zYG6bW1M7BA\nj0p0JnWs/OQYwOK1lwMKILWXzIo3hP5nqby+R4ogeprdQsK7QW/Ui8lMkUM7TDZz\nEDrK/K8w1c50sGJiGPy96ivoX/tlhz+XaQ9YGZatS+Nr4HVz+/Zqg53/R89q6IBE\n3dk48msehwKBgCk5T8iPXJGK6nDPasoaI7OF53H1l+GiWMqZr8UB2QdR4C4FxZ2d\nrNBGkn7bjqDcm2GYxPFGfhHeHfrp1jZBVQYtnY7TW4IKvTghbtsYbAN9EUfIQbOH\nqkv9XC3qHvNLJq7z4dPbrrFO/FlnLvLbMYzYYzV2S4UgTsFs8C4zsHvdAoGBAJ4B\nMw3DK9o1roAzLYwN31wlYr8Qa7KKrHJmhUzpZiyuCZJH6o2VB1pdcejFwHT3jO+w\nLoFHiq+R85Btgo7wWFxACu8vfCjd8jbXy3LzvpLkhxbK/piT7z97ZbwCDyY9o8gl\nisOt3nXSjDUpDhD9UFFSOvzWRBXk7vkuY2bOtlzvAoGAf3GgQ59yzUQ5NiFgxLEf\n4bT4jyx4wMOF/R+pY/cqyTVSWdP4KQi0C8OUAU60a5IzLNtZUf3e2UGm+fUfWFkF\nza/Uuypp12JXN5c3SBzh+WBtxG3/oaQoa0xTtS4pDp5a0DQjgYyKzy1K5DUfAjDN\nBCQmtxy32FPK2RBLMI4Azi0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bryan-865@winged-complex-448806-d7.iam.gserviceaccount.com",
+  "client_id": "115396146078310607238",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bryan-865%40winged-complex-448806-d7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

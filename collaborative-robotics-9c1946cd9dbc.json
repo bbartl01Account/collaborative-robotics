@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "collaborative-robotics",
+  "private_key_id": "9c1946cd9dbcc2f4c0cfab0116a4355545460937",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCaaIlKovngCwE7\nsVDJV1CeHJ3CcoO93zdckg6Mm/3mbOTaCK923bjeaNNPnpU6rJV6IxSJOihZ5n4c\nmvgU7H75jPQhgfaFWadDAbrh35EkWZP7MrefPESrqMzaIVrgOIz+izvJcGV4rPvO\nzzXSuvdhi/x6OVenIjOZEheY8OUVhlJ9JO9vUoPaTYtv7DDDIPY+wne5tAWmxltS\noSp4NriwnL6sj4aADCP9Q21Bmw5ACWkPnfS77nk+NyHa04SOEIa08cOb2Nui5x0a\n9H7CtGONTIMRIjpiFcEzQSFT8PGxBVH1FjTi+IATgdDmErDtgGlgMmS3bH9/gzjb\nqOR4UvLDAgMBAAECgf9UipKhIEVakKvxgvmN7mtgJqA6AXkgUex97XpfLQmsoEgC\nbmmj1heNBC1ZP/rKUAmHq1gTH+9NSbttmME8COt8tzBJKF9Ro+9wlgHnVKv4uxMg\nS8894EG5EIhuO3+w70WYw6MjJ+cRq6TeFus2oNJ8a6j77WmQmP6nUMCa0fVGqEA0\nf9bJ3+jkf0XsfSYN4kiGO84zH5JNpgsAejL1FWRmWQmIWx6W7ESkG+/zvQ2fVnEh\naS/8dI/Ilkg1AVj2AbEf1iOKDlKS7Fp4/h0WYm6NupCX2kHTllOpIS3erJmv9wY8\nQbmZc2eyn4dc0au+oX9dNrNJA3qLhqLGb11cBTECgYEA0KQ+mBmXGr/02ui7oeI4\nQI99Tmn5SCT938pw2VCgKM5QF+NxF2WABnvQdSNvtFavF4uLT1bNmLuDbUH4EtgH\nBiKdBeoaeqrK6fqlXT+2XYsTEM57zOa7dgwH8+DbPj8twDtV0z48O+0OuCgLKztD\nMFlAErNxt3SWh36nYTIoHpECgYEAvXTnemx56CiE1EmG4BMTUWZ833bSmM8AxdXG\nBN6f+ATd9w+hWjMgUDk550OYAxt5P+s6jO09GU0pFXfC/hnXmx6bfWN2Lx1oIL98\noiBeyYvS86ak3+nUYdW5UV6nQigO4z5CvJ4FnkkZfnAToxtQkQH+rtwEWDiTelNw\nqurAzhMCgYAexbq9sDiLJ3izuNPDwpvNWdx/bj3oGByhnzgZtTyKCDPj8hXB/6Rs\nUGKkhD97d7WHYXuAjirwtedie/JcxSP0EbLbJnYVVY9sBx3QrQ72qQZ82heEVxub\nA5dArw9nFOZojdfQukMkC4i6PJ25GJqGTQOYPoMtLbLt9Q421bD5IQKBgB55pZqN\nxHZRvjwfr7BvoRXg9IlFpc6qzacFIhs6bGUK82GAhCXsP3BoJCZNOzCUxMZBYmO0\n7bUaMlefsiAJrCLpo31h+GrPwiYyZyv1JQoqkb5buf3CsUUjifHK1gDQTMTFCRsq\nGCFEBPPPt3jvNeB9f6hE//Xo8+Ajd+YmaOk9AoGAH6miU6Yrv4yEA2Gr4s+LCWzN\nTX1O9h0zxHNWJpOAsYEepwATzEvBn8Xk5nZRSrijGdQcskF8fEIeye/tCmxUZcnU\nfOxxTNB+Hptqzg3a22gU0RCbYkpInhKd0oyeDY9qRT+Kw0WaERKd0Av4PqS4OiER\niYnDC24WfmeRrG2g2vI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "me326-service-account@collaborative-robotics.iam.gserviceaccount.com",
+  "client_id": "106138159504116685402",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/me326-service-account%40collaborative-robotics.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

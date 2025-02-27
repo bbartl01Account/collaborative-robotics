@@ -1,0 +1,47 @@
+[0.063s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot
+[0.540s] -- The C compiler identification is GNU 11.4.0
+[0.922s] -- The CXX compiler identification is GNU 11.4.0
+[0.959s] -- Detecting C compiler ABI info
+[1.663s] -- Detecting C compiler ABI info - done
+[1.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.683s] -- Detecting C compile features
+[1.683s] -- Detecting C compile features - done
+[1.687s] -- Detecting CXX compiler ABI info
+[2.333s] -- Detecting CXX compiler ABI info - done
+[2.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.353s] -- Detecting CXX compile features
+[2.353s] -- Detecting CXX compile features - done
+[2.364s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.042s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.275s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.483s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.490s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.492s] -- Added test 'lint_cmake' to check CMake code style
+[3.496s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.507s] -- Added test 'xmllint' to check XML markup files
+[3.517s] -- Configuring done
+[3.545s] -- Generating done
+[3.564s] -- Build files have been written to: /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot
+[3.570s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot
+[3.578s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot -- -j8 -l8
+[3.933s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot -- -j8 -l8
+[4.009s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot
+[4.081s] -- Install configuration: ""
+[4.081s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot//launch
+[4.083s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot//launch/locobot.launch.py
+[4.087s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/package_run_dependencies/stanford_locobot
+[4.089s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/parent_prefix_path/stanford_locobot
+[4.092s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.sh
+[4.093s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.dsv
+[4.095s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.sh
+[4.096s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.dsv
+[4.098s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.bash
+[4.099s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.sh
+[4.101s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.zsh
+[4.103s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.dsv
+[4.104s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.dsv
+[4.109s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/packages/stanford_locobot
+[4.111s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig.cmake
+[4.113s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig-version.cmake
+[4.115s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.xml
+[4.126s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot

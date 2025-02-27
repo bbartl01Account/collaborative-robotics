@@ -1,0 +1,9 @@
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/uninstall.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/stanford_locobot_uninstall.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/test.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/install.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot/CMakeFiles/install/strip.dir

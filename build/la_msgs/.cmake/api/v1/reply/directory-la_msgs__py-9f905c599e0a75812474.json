@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "la_msgs__py",
+		"source" : "/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs/la_msgs__py"
+	}
+}

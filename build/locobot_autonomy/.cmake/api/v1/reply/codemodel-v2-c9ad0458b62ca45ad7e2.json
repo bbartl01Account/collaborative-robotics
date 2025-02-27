@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1ba6d88fff7a8309488f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "locobot_autonomy__py",
+					"jsonFile" : "directory-locobot_autonomy__py-f032a64b9f1c9a8cefcb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy/locobot_autonomy__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "locobot_autonomy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_locobot_autonomy_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_locobot_autonomy_egg-905578107732635aa5f1.json",
+					"name" : "ament_cmake_python_build_locobot_autonomy_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_locobot_autonomy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_locobot_autonomy-927e507543050a6cb183.json",
+					"name" : "ament_cmake_python_copy_locobot_autonomy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy-5260718b05e7783f93ef.json",
+					"name" : "locobot_autonomy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__cpp-11d192301dc01640208b.json",
+					"name" : "locobot_autonomy__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "locobot_autonomy__py::@9375aefbc9e16ead7fc4",
+					"jsonFile" : "target-locobot_autonomy__py-f2e7a0a731854abcb1c2.json",
+					"name" : "locobot_autonomy__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_generator_c-fca8f214965f27486553.json",
+					"name" : "locobot_autonomy__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_generator_py-8d4bdac5176f46403f5d.json",
+					"name" : "locobot_autonomy__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_c-11321fce4eb8817e69f5.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_c__pyext-25fcd763c11cdac37129.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_cpp-5d100689361982972239.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_fastrtps_c-57aace5c3bad80d4d255.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext-02c81eb123325b8db2af.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_fastrtps_cpp-f026dab90a869f1a944b.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_introspection_c-8559abc8231b337921a3.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_introspection_c__pyext-e4882ce9945381d48674.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy__rosidl_typesupport_introspection_cpp-b800d230bd42f86c9570.json",
+					"name" : "locobot_autonomy__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "locobot_autonomy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-locobot_autonomy_uninstall-5ae9f93277beda8129a2.json",
+					"name" : "locobot_autonomy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c5fe9e1cf5eb6d6c1b94.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy",
+		"source" : "/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

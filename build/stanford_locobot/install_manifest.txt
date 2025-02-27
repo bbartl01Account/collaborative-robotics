@@ -1,0 +1,16 @@
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot//launch/locobot.launch.py
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/package_run_dependencies/stanford_locobot
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/parent_prefix_path/stanford_locobot
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.sh
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.dsv
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.sh
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.dsv
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.bash
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.sh
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.zsh
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.dsv
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.dsv
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/packages/stanford_locobot
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig.cmake
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig-version.cmake
+/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.xml

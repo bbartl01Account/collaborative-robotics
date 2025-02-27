@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c.dir/build.make:148: rosidl_typesupport_fastrtps_c/locobot_autonomy/action/detail/move_base__rosidl_typesupport_fastrtps_c.h] Illegal instruction
+gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

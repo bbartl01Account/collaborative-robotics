@@ -1,0 +1,292 @@
+[0.065s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs
+[0.588s] -- The C compiler identification is GNU 11.4.0
+[0.941s] -- The CXX compiler identification is GNU 11.4.0
+[0.978s] -- Detecting C compiler ABI info
+[1.653s] -- Detecting C compiler ABI info - done
+[1.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.682s] -- Detecting C compile features
+[1.686s] -- Detecting C compile features - done
+[1.690s] -- Detecting CXX compiler ABI info
+[2.318s] -- Detecting CXX compiler ABI info - done
+[2.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.335s] -- Detecting CXX compile features
+[2.336s] -- Detecting CXX compile features - done
+[2.350s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.013s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.251s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.308s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.317s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.320s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.405s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.409s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.952s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.040s] -- Looking for pthread.h
+[4.604s] -- Looking for pthread.h - found
+[4.605s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.156s] -- Found Threads: TRUE  
+[5.206s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.220s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.238s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.055s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.853s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.856s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.949s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.949s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.950s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.950s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.039s] -- Found PythonExtra: .so  
+[8.251s] -- Configuring done
+[8.420s] -- Generating done
+[8.473s] -- Build files have been written to: /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs
+[8.480s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs
+[8.485s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs -- -j8 -l8
+[8.895s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.046s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.115s] [  5%] Built target ament_cmake_python_copy_la_msgs
+[9.620s] running egg_info
+[9.621s] creating la_msgs.egg-info
+[9.621s] writing la_msgs.egg-info/PKG-INFO
+[9.622s] writing dependency_links to la_msgs.egg-info/dependency_links.txt
+[9.624s] writing top-level names to la_msgs.egg-info/top_level.txt
+[9.625s] writing manifest file 'la_msgs.egg-info/SOURCES.txt'
+[9.632s] reading manifest file 'la_msgs.egg-info/SOURCES.txt'
+[9.637s] writing manifest file 'la_msgs.egg-info/SOURCES.txt'
+[9.905s] [  5%] Built target ament_cmake_python_build_la_msgs_egg
+[10.331s] [  5%] Built target la_msgs__cpp
+[10.478s] [  7%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/action/detail/move_base__functions.c.o[0m
+[10.489s] [ 10%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/srv/detail/ptps__functions.c.o[0m
+[10.564s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.564s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.571s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.004s] [ 20%] [32m[1mLinking C shared library libla_msgs__rosidl_generator_c.so[0m
+[11.502s] [ 20%] Built target la_msgs__rosidl_generator_c
+[11.512s] [ 25%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/action/move_base__type_support.cpp.o[0m
+[11.516s] [ 25%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/srv/ptps__type_support.cpp.o[0m
+[11.764s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.775s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.811s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.891s] [ 35%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/srv/detail/ptps__type_support.cpp.o[0m
+[11.896s] [ 38%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/action/detail/move_base__type_support.cpp.o[0m
+[11.904s] [ 41%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/action/detail/dds_fastrtps/move_base__type_support.cpp.o[0m
+[12.527s] [ 43%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/srv/detail/dds_fastrtps/ptps__type_support.cpp.o[0m
+[12.773s] [ 46%] [32m[1mLinking CXX shared library libla_msgs__rosidl_typesupport_cpp.so[0m
+[13.068s] [ 48%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/action/move_base__type_support.cpp.o[0m
+[13.271s] [ 51%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/srv/ptps__type_support.cpp.o[0m
+[13.410s] [ 53%] [32m[1mLinking CXX shared library libla_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.548s] [ 56%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/srv/detail/ptps__type_support.c.o[0m
+[13.560s] [ 56%] Built target la_msgs__rosidl_typesupport_cpp
+[13.573s] [ 58%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/action/detail/move_base__type_support.c.o[0m
+[13.704s] [ 61%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/srv/detail/ptps__type_support_c.cpp.o[0m
+[13.709s] [ 64%] [32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/action/detail/move_base__type_support_c.cpp.o[0m
+[13.733s] [ 66%] [32m[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.797s] [ 69%] [32m[1mLinking CXX shared library libla_msgs__rosidl_typesupport_c.so[0m
+[14.015s] [ 69%] Built target la_msgs__rosidl_typesupport_introspection_cpp
+[14.062s] [ 71%] [32m[1mLinking C shared library libla_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.199s] [ 71%] Built target la_msgs__rosidl_typesupport_c
+[14.217s] [ 71%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp
+[14.337s] [ 71%] Built target la_msgs__rosidl_typesupport_introspection_c
+[14.606s] [ 74%] [32m[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.858s] [ 74%] Built target la_msgs__rosidl_typesupport_fastrtps_c
+[15.057s] [ 74%] Built target la_msgs
+[15.265s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.432s] [ 76%] Built target la_msgs__py
+[16.667s] [ 82%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_py.dir/rosidl_generator_py/la_msgs/action/_move_base_s.c.o[0m
+[16.667s] [ 82%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_py.dir/rosidl_generator_py/la_msgs/srv/_ptps_s.c.o[0m
+[17.172s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/la_msgs/libla_msgs__rosidl_generator_py.so[0m
+[17.405s] [ 84%] Built target la_msgs__rosidl_generator_py
+[17.739s] [ 87%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.743s] [ 89%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.750s] [ 92%] [32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.259s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.278s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.290s] [100%] [32m[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.564s] [100%] Built target la_msgs__rosidl_typesupport_c__pyext
+[18.628s] [100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext
+[18.632s] [100%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.697s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs -- -j8 -l8
+[18.705s] Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs
+[18.767s] -- Install configuration: ""
+[18.770s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/rosidl_interfaces/la_msgs
+[18.773s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.775s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg
+[18.776s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.777s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.778s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.779s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__struct.h
+[18.781s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__functions.c
+[18.783s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__functions.h
+[18.784s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.h
+[18.786s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/move_base.h
+[18.787s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.788s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/ptps.h
+[18.789s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.790s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__functions.h
+[18.792s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__struct.h
+[18.793s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.h
+[18.795s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__functions.c
+[18.797s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/library_path.sh
+[18.798s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/library_path.dsv
+[18.800s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so
+[18.805s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so" to ""
+[18.805s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.805s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg
+[18.806s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.807s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.808s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.808s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h
+[18.810s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.810s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.811s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_c.h
+[18.812s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so
+[18.815s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.815s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.815s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg
+[18.816s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.817s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.818s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/move_base.hpp
+[18.819s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.819s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__builder.hpp
+[18.821s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__struct.hpp
+[18.822s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.hpp
+[18.824s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__traits.hpp
+[18.825s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.826s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.826s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.hpp
+[18.828s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__traits.hpp
+[18.829s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__struct.hpp
+[18.830s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__builder.hpp
+[18.832s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/ptps.hpp
+[18.833s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.834s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg
+[18.834s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.836s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.836s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.836s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp
+[18.838s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/dds_fastrtps
+[18.839s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.839s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.840s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_cpp.hpp
+[18.841s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/dds_fastrtps
+[18.842s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.845s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.845s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.846s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg
+[18.847s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.848s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.848s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.849s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.c
+[18.850s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h
+[18.852s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.852s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.853s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_c.h
+[18.854s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.c
+[18.856s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so
+[18.858s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.858s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so
+[18.860s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so" to ""
+[18.860s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs
+[18.861s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action
+[18.861s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail
+[18.862s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.cpp
+[18.863s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp
+[18.865s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv
+[18.865s] -- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail
+[18.865s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_cpp.hpp
+[18.867s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.cpp
+[18.869s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so
+[18.871s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.872s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so
+[18.874s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so" to ""
+[18.874s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/pythonpath.sh
+[18.876s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/pythonpath.dsv
+[18.877s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info
+[18.878s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[18.880s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.881s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[18.882s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.884s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs
+[18.884s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.886s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.888s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.889s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.891s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/__init__.py
+[18.892s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action
+[18.893s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base_s.c
+[18.895s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/__init__.py
+[18.896s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base.py
+[18.898s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.900s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv
+[18.901s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/__init__.py
+[18.902s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps_s.c
+[18.903s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps.py
+[18.905s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/libla_msgs__rosidl_generator_py.so
+[18.907s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_c.c
+[19.046s] Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs'...
+[19.046s] Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/__init__.py'...
+[19.046s] Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action'...
+[19.047s] Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/__init__.py'...
+[19.047s] Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base.py'...
+[19.047s] Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv'...
+[19.047s] Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/__init__.py'...
+[19.047s] Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps.py'...
+[19.052s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.055s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.055s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.058s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.058s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.061s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.062s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_py.so
+[19.064s] -- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_py.so" to ""
+[19.065s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/action/MoveBase.idl
+[19.066s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps.idl
+[19.068s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/action/MoveBase.action
+[19.070s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps.srv
+[19.073s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps_Request.msg
+[19.074s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps_Response.msg
+[19.078s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/package_run_dependencies/la_msgs
+[19.080s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/parent_prefix_path/la_msgs
+[19.081s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/ament_prefix_path.sh
+[19.082s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/ament_prefix_path.dsv
+[19.084s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/path.sh
+[19.085s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/path.dsv
+[19.087s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.bash
+[19.088s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.sh
+[19.090s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.zsh
+[19.091s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.dsv
+[19.092s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.dsv
+[19.094s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/packages/la_msgs
+[19.096s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cExport.cmake
+[19.097s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.099s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.100s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.102s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cppExport.cmake
+[19.104s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.105s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.107s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.108s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.110s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport.cmake
+[19.111s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.113s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.115s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.116s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport.cmake
+[19.118s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.119s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_pyExport.cmake
+[19.121s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.122s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake-extras.cmake
+[19.123s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.125s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.126s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.128s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.129s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.131s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.132s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgsConfig.cmake
+[19.134s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgsConfig-version.cmake
+[19.135s] -- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.xml
+[19.145s] Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs

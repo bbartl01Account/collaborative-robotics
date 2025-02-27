@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "locobot_autonomy__py",
+		"source" : "/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy/locobot_autonomy__py"
+	}
+}

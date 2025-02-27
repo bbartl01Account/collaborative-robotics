@@ -43,13 +43,15 @@ find_package(Eigen3 REQUIRED)
 find_package(la_msgs REQUIRED)
 
 
-ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
   locobot_autonomy/move_A_to_B_py.py
   locobot_autonomy/simple_control.py
   locobot_autonomy/move_locobot_base_action_server.py
+  locobot_autonomy/circle_drive.py
+  locobot_autonomy/imageConverter.py
+  locobot_autonomy/scan_approach.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

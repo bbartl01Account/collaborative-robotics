@@ -1,0 +1,899 @@
+[0.000000] (-) TimerEvent: {}
+[0.000774] (la_msgs) JobQueued: {'identifier': 'la_msgs', 'dependencies': OrderedDict()}
+[0.001966] (stanford_locobot) JobQueued: {'identifier': 'stanford_locobot', 'dependencies': OrderedDict()}
+[0.002194] (locobot_autonomy) JobQueued: {'identifier': 'locobot_autonomy', 'dependencies': OrderedDict([('la_msgs', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs')])}
+[0.002271] (la_msgs) JobStarted: {'identifier': 'la_msgs'}
+[0.009507] (stanford_locobot) JobStarted: {'identifier': 'stanford_locobot'}
+[0.056463] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'cmake'}
+[0.062197] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.067620] (stanford_locobot) JobProgress: {'identifier': 'stanford_locobot', 'progress': 'cmake'}
+[0.071059] (stanford_locobot) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.098311] (-) TimerEvent: {}
+[0.203606] (-) TimerEvent: {}
+[0.306409] (-) TimerEvent: {}
+[0.410416] (-) TimerEvent: {}
+[0.511339] (-) TimerEvent: {}
+[0.551602] (stanford_locobot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.590525] (la_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.612298] (-) TimerEvent: {}
+[0.713347] (-) TimerEvent: {}
+[0.818366] (-) TimerEvent: {}
+[0.922382] (-) TimerEvent: {}
+[0.933472] (stanford_locobot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.942910] (la_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.970469] (stanford_locobot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.980308] (la_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.025324] (-) TimerEvent: {}
+[1.126403] (-) TimerEvent: {}
+[1.227365] (-) TimerEvent: {}
+[1.332352] (-) TimerEvent: {}
+[1.433355] (-) TimerEvent: {}
+[1.534373] (-) TimerEvent: {}
+[1.637060] (-) TimerEvent: {}
+[1.654898] (la_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.674673] (stanford_locobot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.680299] (la_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.682323] (la_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.685328] (la_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.692119] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.694186] (stanford_locobot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.694987] (stanford_locobot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.695285] (stanford_locobot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.699010] (stanford_locobot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.737536] (-) TimerEvent: {}
+[1.842524] (-) TimerEvent: {}
+[1.945383] (-) TimerEvent: {}
+[2.049374] (-) TimerEvent: {}
+[2.153128] (-) TimerEvent: {}
+[2.254373] (-) TimerEvent: {}
+[2.320431] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.336655] (la_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.337126] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.337855] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.345146] (stanford_locobot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.352301] (la_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.356282] (-) TimerEvent: {}
+[2.363779] (stanford_locobot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.364881] (stanford_locobot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.365164] (stanford_locobot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.374192] (stanford_locobot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.457344] (-) TimerEvent: {}
+[2.558344] (-) TimerEvent: {}
+[2.659370] (-) TimerEvent: {}
+[2.763335] (-) TimerEvent: {}
+[2.864344] (-) TimerEvent: {}
+[2.965342] (-) TimerEvent: {}
+[3.014873] (la_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.052370] (stanford_locobot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.066303] (-) TimerEvent: {}
+[3.167365] (-) TimerEvent: {}
+[3.252968] (la_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.268321] (-) TimerEvent: {}
+[3.286680] (stanford_locobot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.307516] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.313486] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.322133] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.335091] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.352774] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.369330] (-) TimerEvent: {}
+[3.407217] (la_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.411300] (la_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.470375] (-) TimerEvent: {}
+[3.494818] (stanford_locobot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.502074] (stanford_locobot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.503729] (stanford_locobot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.507824] (stanford_locobot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.518426] (stanford_locobot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.528945] (stanford_locobot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.556961] (stanford_locobot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.571832] (-) TimerEvent: {}
+[3.572912] (stanford_locobot) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot\n'}
+[3.581725] (stanford_locobot) CommandEnded: {'returncode': 0}
+[3.582836] (stanford_locobot) JobProgress: {'identifier': 'stanford_locobot', 'progress': 'build'}
+[3.586368] (stanford_locobot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[3.672341] (-) TimerEvent: {}
+[3.773344] (-) TimerEvent: {}
+[3.874373] (-) TimerEvent: {}
+[3.909913] (la_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.945178] (stanford_locobot) CommandEnded: {'returncode': 0}
+[3.949202] (stanford_locobot) JobProgress: {'identifier': 'stanford_locobot', 'progress': 'install'}
+[3.953277] (la_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.975319] (-) TimerEvent: {}
+[4.018834] (stanford_locobot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[4.026060] (la_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.041784] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.076359] (-) TimerEvent: {}
+[4.090369] (stanford_locobot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.093046] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot//launch\n'}
+[4.094883] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot//launch/locobot.launch.py\n'}
+[4.099019] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/package_run_dependencies/stanford_locobot\n'}
+[4.101501] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/parent_prefix_path/stanford_locobot\n'}
+[4.103542] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.sh\n'}
+[4.105060] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/ament_prefix_path.dsv\n'}
+[4.106668] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.sh\n'}
+[4.108209] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/environment/path.dsv\n'}
+[4.109788] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.bash\n'}
+[4.111184] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.sh\n'}
+[4.112897] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.zsh\n'}
+[4.114584] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/local_setup.dsv\n'}
+[4.116083] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.dsv\n'}
+[4.120731] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/ament_index/resource_index/packages/stanford_locobot\n'}
+[4.123381] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig.cmake\n'}
+[4.125147] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/cmake/stanford_locobotConfig-version.cmake\n'}
+[4.126558] (stanford_locobot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.xml\n'}
+[4.135344] (stanford_locobot) CommandEnded: {'returncode': 0}
+[4.177304] (-) TimerEvent: {}
+[4.182576] (stanford_locobot) JobEnded: {'identifier': 'stanford_locobot', 'rc': 0}
+[4.278362] (-) TimerEvent: {}
+[4.380553] (-) TimerEvent: {}
+[4.483345] (-) TimerEvent: {}
+[4.584336] (-) TimerEvent: {}
+[4.605536] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.606809] (la_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.685580] (-) TimerEvent: {}
+[4.788350] (-) TimerEvent: {}
+[4.891350] (-) TimerEvent: {}
+[4.994348] (-) TimerEvent: {}
+[5.095341] (-) TimerEvent: {}
+[5.154059] (la_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.158458] (la_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.196333] (-) TimerEvent: {}
+[5.208569] (la_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.222402] (la_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.240552] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.297321] (-) TimerEvent: {}
+[5.402394] (-) TimerEvent: {}
+[5.503337] (-) TimerEvent: {}
+[5.604340] (-) TimerEvent: {}
+[5.706418] (-) TimerEvent: {}
+[5.811456] (-) TimerEvent: {}
+[5.912339] (-) TimerEvent: {}
+[6.013337] (-) TimerEvent: {}
+[6.056786] (la_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.114324] (-) TimerEvent: {}
+[6.215361] (-) TimerEvent: {}
+[6.321369] (-) TimerEvent: {}
+[6.422363] (-) TimerEvent: {}
+[6.527343] (-) TimerEvent: {}
+[6.628337] (-) TimerEvent: {}
+[6.729349] (-) TimerEvent: {}
+[6.832334] (-) TimerEvent: {}
+[6.933370] (-) TimerEvent: {}
+[7.038344] (-) TimerEvent: {}
+[7.139357] (-) TimerEvent: {}
+[7.244339] (-) TimerEvent: {}
+[7.289754] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.345325] (-) TimerEvent: {}
+[7.452364] (-) TimerEvent: {}
+[7.559356] (-) TimerEvent: {}
+[7.660372] (-) TimerEvent: {}
+[7.764595] (-) TimerEvent: {}
+[7.765365] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.855514] (la_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.858017] (la_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.865296] (-) TimerEvent: {}
+[7.951027] (la_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.951477] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.951741] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.951969] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.966297] (-) TimerEvent: {}
+[8.041352] (la_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.067299] (-) TimerEvent: {}
+[8.168362] (-) TimerEvent: {}
+[8.252807] (la_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.269455] (-) TimerEvent: {}
+[8.370402] (-) TimerEvent: {}
+[8.422366] (la_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.469505] (la_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs\n'}
+[8.475442] (-) TimerEvent: {}
+[8.482423] (la_msgs) CommandEnded: {'returncode': 0}
+[8.483543] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'build'}
+[8.483942] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[8.577412] (-) TimerEvent: {}
+[8.678377] (-) TimerEvent: {}
+[8.780961] (-) TimerEvent: {}
+[8.882345] (-) TimerEvent: {}
+[8.895391] (la_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.984420] (-) TimerEvent: {}
+[9.047837] (la_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.085387] (-) TimerEvent: {}
+[9.114603] (la_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_la_msgs\n'}
+[9.186395] (-) TimerEvent: {}
+[9.288351] (-) TimerEvent: {}
+[9.389351] (-) TimerEvent: {}
+[9.490352] (-) TimerEvent: {}
+[9.591403] (-) TimerEvent: {}
+[9.621804] (la_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[9.622660] (la_msgs) StdoutLine: {'line': b'creating la_msgs.egg-info\n'}
+[9.623282] (la_msgs) StdoutLine: {'line': b'writing la_msgs.egg-info/PKG-INFO\n'}
+[9.624128] (la_msgs) StdoutLine: {'line': b'writing dependency_links to la_msgs.egg-info/dependency_links.txt\n'}
+[9.625767] (la_msgs) StdoutLine: {'line': b'writing top-level names to la_msgs.egg-info/top_level.txt\n'}
+[9.626798] (la_msgs) StdoutLine: {'line': b"writing manifest file 'la_msgs.egg-info/SOURCES.txt'\n"}
+[9.633213] (la_msgs) StdoutLine: {'line': b"reading manifest file 'la_msgs.egg-info/SOURCES.txt'\n"}
+[9.637779] (la_msgs) StdoutLine: {'line': b"writing manifest file 'la_msgs.egg-info/SOURCES.txt'\n"}
+[9.692427] (-) TimerEvent: {}
+[9.793513] (-) TimerEvent: {}
+[9.896322] (-) TimerEvent: {}
+[9.905323] (la_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_la_msgs_egg\n'}
+[9.997357] (-) TimerEvent: {}
+[10.098366] (-) TimerEvent: {}
+[10.199427] (-) TimerEvent: {}
+[10.300589] (-) TimerEvent: {}
+[10.331150] (la_msgs) StdoutLine: {'line': b'[  5%] Built target la_msgs__cpp\n'}
+[10.401350] (-) TimerEvent: {}
+[10.478618] (la_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/action/detail/move_base__functions.c.o\x1b[0m\n'}
+[10.490322] (la_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/srv/detail/ptps__functions.c.o\x1b[0m\n'}
+[10.502309] (-) TimerEvent: {}
+[10.565320] (la_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.566573] (la_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.570898] (la_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.603391] (-) TimerEvent: {}
+[10.707759] (-) TimerEvent: {}
+[10.810357] (-) TimerEvent: {}
+[10.911352] (-) TimerEvent: {}
+[11.005639] (la_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libla_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[11.012671] (-) TimerEvent: {}
+[11.114386] (-) TimerEvent: {}
+[11.216448] (-) TimerEvent: {}
+[11.317415] (-) TimerEvent: {}
+[11.418418] (-) TimerEvent: {}
+[11.503809] (la_msgs) StdoutLine: {'line': b'[ 20%] Built target la_msgs__rosidl_generator_c\n'}
+[11.510729] (la_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[11.516291] (la_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/srv/ptps__type_support.cpp.o\x1b[0m\n'}
+[11.519453] (-) TimerEvent: {}
+[11.623058] (-) TimerEvent: {}
+[11.724352] (-) TimerEvent: {}
+[11.765341] (la_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.777308] (la_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.812503] (la_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.825390] (-) TimerEvent: {}
+[11.890690] (la_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/srv/detail/ptps__type_support.cpp.o\x1b[0m\n'}
+[11.896759] (la_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/action/detail/move_base__type_support.cpp.o\x1b[0m\n'}
+[11.905820] (la_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/action/detail/dds_fastrtps/move_base__type_support.cpp.o\x1b[0m\n'}
+[11.926439] (-) TimerEvent: {}
+[12.032468] (-) TimerEvent: {}
+[12.140496] (-) TimerEvent: {}
+[12.242569] (-) TimerEvent: {}
+[12.346499] (-) TimerEvent: {}
+[12.448565] (-) TimerEvent: {}
+[12.527518] (la_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/srv/detail/dds_fastrtps/ptps__type_support.cpp.o\x1b[0m\n'}
+[12.549379] (-) TimerEvent: {}
+[12.650705] (-) TimerEvent: {}
+[12.753530] (-) TimerEvent: {}
+[12.774478] (la_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.854444] (-) TimerEvent: {}
+[12.955908] (-) TimerEvent: {}
+[13.057642] (-) TimerEvent: {}
+[13.070309] (la_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[13.158410] (-) TimerEvent: {}
+[13.259348] (-) TimerEvent: {}
+[13.272451] (la_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/srv/ptps__type_support.cpp.o\x1b[0m\n'}
+[13.360383] (-) TimerEvent: {}
+[13.411965] (la_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.461515] (-) TimerEvent: {}
+[13.549193] (la_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/srv/detail/ptps__type_support.c.o\x1b[0m\n'}
+[13.562337] (la_msgs) StdoutLine: {'line': b'[ 56%] Built target la_msgs__rosidl_typesupport_cpp\n'}
+[13.562954] (-) TimerEvent: {}
+[13.575310] (la_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/action/detail/move_base__type_support.c.o\x1b[0m\n'}
+[13.663386] (-) TimerEvent: {}
+[13.705797] (la_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/srv/detail/ptps__type_support_c.cpp.o\x1b[0m\n'}
+[13.710834] (la_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/action/detail/move_base__type_support_c.cpp.o\x1b[0m\n'}
+[13.733485] (la_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.764429] (-) TimerEvent: {}
+[13.797426] (la_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.865734] (-) TimerEvent: {}
+[13.967515] (-) TimerEvent: {}
+[14.016325] (la_msgs) StdoutLine: {'line': b'[ 69%] Built target la_msgs__rosidl_typesupport_introspection_cpp\n'}
+[14.062547] (la_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libla_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.068531] (-) TimerEvent: {}
+[14.170690] (-) TimerEvent: {}
+[14.201099] (la_msgs) StdoutLine: {'line': b'[ 71%] Built target la_msgs__rosidl_typesupport_c\n'}
+[14.216847] (la_msgs) StdoutLine: {'line': b'[ 71%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[14.272059] (-) TimerEvent: {}
+[14.337347] (la_msgs) StdoutLine: {'line': b'[ 71%] Built target la_msgs__rosidl_typesupport_introspection_c\n'}
+[14.372362] (-) TimerEvent: {}
+[14.473833] (-) TimerEvent: {}
+[14.574362] (-) TimerEvent: {}
+[14.607334] (la_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.675363] (-) TimerEvent: {}
+[14.778374] (-) TimerEvent: {}
+[14.858501] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.879363] (-) TimerEvent: {}
+[14.982341] (-) TimerEvent: {}
+[15.056880] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs\n'}
+[15.083327] (-) TimerEvent: {}
+[15.184359] (-) TimerEvent: {}
+[15.265338] (la_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.287303] (-) TimerEvent: {}
+[15.388336] (-) TimerEvent: {}
+[15.489341] (-) TimerEvent: {}
+[15.590321] (-) TimerEvent: {}
+[15.691321] (-) TimerEvent: {}
+[15.794318] (-) TimerEvent: {}
+[15.895332] (-) TimerEvent: {}
+[15.998350] (-) TimerEvent: {}
+[16.099328] (-) TimerEvent: {}
+[16.205431] (-) TimerEvent: {}
+[16.306355] (-) TimerEvent: {}
+[16.407378] (-) TimerEvent: {}
+[16.434324] (la_msgs) StdoutLine: {'line': b'[ 76%] Built target la_msgs__py\n'}
+[16.508340] (-) TimerEvent: {}
+[16.615568] (-) TimerEvent: {}
+[16.669066] (la_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_py.dir/rosidl_generator_py/la_msgs/action/_move_base_s.c.o\x1b[0m\n'}
+[16.669487] (la_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_py.dir/rosidl_generator_py/la_msgs/srv/_ptps_s.c.o\x1b[0m\n'}
+[16.716308] (-) TimerEvent: {}
+[16.819347] (-) TimerEvent: {}
+[16.921349] (-) TimerEvent: {}
+[17.022336] (-) TimerEvent: {}
+[17.123383] (-) TimerEvent: {}
+[17.172550] (la_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/libla_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[17.225308] (-) TimerEvent: {}
+[17.326353] (-) TimerEvent: {}
+[17.404674] (la_msgs) StdoutLine: {'line': b'[ 84%] Built target la_msgs__rosidl_generator_py\n'}
+[17.428343] (-) TimerEvent: {}
+[17.529345] (-) TimerEvent: {}
+[17.635199] (-) TimerEvent: {}
+[17.736337] (-) TimerEvent: {}
+[17.741046] (la_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.745500] (la_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.752220] (la_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.837346] (-) TimerEvent: {}
+[17.938396] (-) TimerEvent: {}
+[18.039363] (-) TimerEvent: {}
+[18.140349] (-) TimerEvent: {}
+[18.242350] (-) TimerEvent: {}
+[18.259330] (la_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.278545] (la_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.292036] (la_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.343322] (-) TimerEvent: {}
+[18.444421] (-) TimerEvent: {}
+[18.546477] (-) TimerEvent: {}
+[18.566308] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_c__pyext\n'}
+[18.630203] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[18.631376] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.647325] (-) TimerEvent: {}
+[18.698163] (la_msgs) CommandEnded: {'returncode': 0}
+[18.700762] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'install'}
+[18.703567] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[18.748349] (-) TimerEvent: {}
+[18.769245] (la_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.772153] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/rosidl_interfaces/la_msgs\n'}
+[18.775547] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.777049] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg\n'}
+[18.777876] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.779244] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.780070] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.781050] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__struct.h\n'}
+[18.783061] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__functions.c\n'}
+[18.784796] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__functions.h\n'}
+[18.786577] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.h\n'}
+[18.787863] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/move_base.h\n'}
+[18.789251] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.790009] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/ptps.h\n'}
+[18.791507] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.792346] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__functions.h\n'}
+[18.794157] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__struct.h\n'}
+[18.795554] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.h\n'}
+[18.797046] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__functions.c\n'}
+[18.799152] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/library_path.sh\n'}
+[18.800397] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/library_path.dsv\n'}
+[18.802351] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so\n'}
+[18.806917] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so" to ""\n'}
+[18.807252] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.807621] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg\n'}
+[18.808061] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.809249] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.809812] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.810435] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h\n'}
+[18.811737] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.812330] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.812868] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_c.h\n'}
+[18.814301] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[18.816846] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.817161] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.817532] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg\n'}
+[18.817924] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.819396] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.819819] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/move_base.hpp\n'}
+[18.821015] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.821628] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__builder.hpp\n'}
+[18.822907] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__struct.hpp\n'}
+[18.824551] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.hpp\n'}
+[18.825817] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__traits.hpp\n'}
+[18.827429] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.827843] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.828295] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.hpp\n'}
+[18.829823] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__traits.hpp\n'}
+[18.831095] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__struct.hpp\n'}
+[18.832599] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__builder.hpp\n'}
+[18.833842] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/ptps.hpp\n'}
+[18.835292] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.835693] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg\n'}
+[18.836405] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.837881] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.838267] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.838706] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.840172] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/dds_fastrtps\n'}
+[18.841060] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.841459] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.841882] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.843296] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/dds_fastrtps\n'}
+[18.844424] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.847243] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.847594] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.848038] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg\n'}
+[18.848387] (-) TimerEvent: {}
+[18.848725] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.849852] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.850266] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.850680] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.c\n'}
+[18.852410] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h\n'}
+[18.853650] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.854243] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.854704] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_c.h\n'}
+[18.855902] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.c\n'}
+[18.857772] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so\n'}
+[18.860204] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.860567] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so\n'}
+[18.862316] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so" to ""\n'}
+[18.862586] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs\n'}
+[18.862938] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action\n'}
+[18.863541] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail\n'}
+[18.863934] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__type_support.cpp\n'}
+[18.865342] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.866836] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv\n'}
+[18.867288] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail\n'}
+[18.867685] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.868879] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/include/la_msgs/la_msgs/srv/detail/ptps__type_support.cpp\n'}
+[18.870950] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[18.873459] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.873899] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so\n'}
+[18.876075] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[18.876391] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/pythonpath.sh\n'}
+[18.877856] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/pythonpath.dsv\n'}
+[18.879101] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info\n'}
+[18.880420] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.881643] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.882981] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.884482] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.885687] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs\n'}
+[18.886660] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.888194] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.889925] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.891505] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.893274] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/__init__.py\n'}
+[18.894378] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action\n'}
+[18.895370] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base_s.c\n'}
+[18.896767] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/__init__.py\n'}
+[18.898263] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base.py\n'}
+[18.899893] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.901632] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv\n'}
+[18.902661] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/__init__.py\n'}
+[18.903960] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps_s.c\n'}
+[18.905653] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps.py\n'}
+[18.907123] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/libla_msgs__rosidl_generator_py.so\n'}
+[18.908982] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/_la_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[18.949311] (-) TimerEvent: {}
+[19.046073] (la_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs'...\n"}
+[19.048521] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/__init__.py'...\n"}
+[19.048671] (la_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action'...\n"}
+[19.048825] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/__init__.py'...\n"}
+[19.048963] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/action/_move_base.py'...\n"}
+[19.049099] (la_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv'...\n"}
+[19.049232] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/__init__.py'...\n"}
+[19.049383] (-) TimerEvent: {}
+[19.049504] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/srv/_ptps.py'...\n"}
+[19.054174] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.056565] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.057217] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.059785] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.060433] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.063360] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.063708] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_py.so\n'}
+[19.066181] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/libla_msgs__rosidl_generator_py.so" to ""\n'}
+[19.066813] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/action/MoveBase.idl\n'}
+[19.068686] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps.idl\n'}
+[19.070105] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/action/MoveBase.action\n'}
+[19.071734] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps.srv\n'}
+[19.074631] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps_Request.msg\n'}
+[19.076454] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/srv/Ptps_Response.msg\n'}
+[19.080005] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/package_run_dependencies/la_msgs\n'}
+[19.081854] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/parent_prefix_path/la_msgs\n'}
+[19.083186] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/ament_prefix_path.sh\n'}
+[19.084539] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/ament_prefix_path.dsv\n'}
+[19.086081] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/path.sh\n'}
+[19.087442] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/environment/path.dsv\n'}
+[19.088973] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.bash\n'}
+[19.090345] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.sh\n'}
+[19.091907] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.zsh\n'}
+[19.093184] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/local_setup.dsv\n'}
+[19.094647] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.dsv\n'}
+[19.096376] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/ament_index/resource_index/packages/la_msgs\n'}
+[19.098062] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cExport.cmake\n'}
+[19.099625] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.101078] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.102543] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.104031] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_cppExport.cmake\n'}
+[19.105526] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.107265] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.108847] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.110432] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.112032] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport.cmake\n'}
+[19.113466] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.115091] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.116664] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.118088] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[19.119665] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.121297] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_pyExport.cmake\n'}
+[19.122766] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/export_la_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.124119] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.125539] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.127045] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.128543] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.129904] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.131490] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.132869] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.134362] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgsConfig.cmake\n'}
+[19.135804] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake/la_msgsConfig-version.cmake\n'}
+[19.137057] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.xml\n'}
+[19.145955] (la_msgs) CommandEnded: {'returncode': 0}
+[19.150308] (-) TimerEvent: {}
+[19.183229] (la_msgs) JobEnded: {'identifier': 'la_msgs', 'rc': 0}
+[19.189054] (locobot_autonomy) JobStarted: {'identifier': 'locobot_autonomy'}
+[19.251387] (-) TimerEvent: {}
+[19.255778] (locobot_autonomy) JobProgress: {'identifier': 'locobot_autonomy', 'progress': 'cmake'}
+[19.257451] (locobot_autonomy) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[19.352339] (-) TimerEvent: {}
+[19.453360] (-) TimerEvent: {}
+[19.557400] (-) TimerEvent: {}
+[19.660354] (-) TimerEvent: {}
+[19.712855] (locobot_autonomy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[19.761380] (-) TimerEvent: {}
+[19.863329] (-) TimerEvent: {}
+[19.964349] (-) TimerEvent: {}
+[20.024111] (locobot_autonomy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[20.054117] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.065507] (-) TimerEvent: {}
+[20.167374] (-) TimerEvent: {}
+[20.270379] (-) TimerEvent: {}
+[20.374961] (-) TimerEvent: {}
+[20.475374] (-) TimerEvent: {}
+[20.582359] (-) TimerEvent: {}
+[20.602844] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.620413] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.620894] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.621232] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.624783] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.683339] (-) TimerEvent: {}
+[20.785393] (-) TimerEvent: {}
+[20.889325] (-) TimerEvent: {}
+[20.990341] (-) TimerEvent: {}
+[21.094373] (-) TimerEvent: {}
+[21.127612] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[21.144303] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[21.144848] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[21.145143] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[21.157059] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[21.195334] (-) TimerEvent: {}
+[21.300345] (-) TimerEvent: {}
+[21.404343] (-) TimerEvent: {}
+[21.505375] (-) TimerEvent: {}
+[21.610363] (-) TimerEvent: {}
+[21.713333] (-) TimerEvent: {}
+[21.773750] (locobot_autonomy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[21.814572] (-) TimerEvent: {}
+[21.917594] (-) TimerEvent: {}
+[22.000229] (locobot_autonomy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[22.019333] (-) TimerEvent: {}
+[22.073764] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.084025] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[22.097028] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[22.113554] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.120315] (-) TimerEvent: {}
+[22.136493] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.205337] (locobot_autonomy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[22.211903] (locobot_autonomy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[22.221316] (-) TimerEvent: {}
+[22.325583] (-) TimerEvent: {}
+[22.432341] (-) TimerEvent: {}
+[22.533335] (-) TimerEvent: {}
+[22.634887] (locobot_autonomy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[22.635267] (-) TimerEvent: {}
+[22.677938] (locobot_autonomy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[22.737317] (-) TimerEvent: {}
+[22.748663] (locobot_autonomy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[22.768932] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[22.838344] (-) TimerEvent: {}
+[22.939370] (-) TimerEvent: {}
+[23.040355] (-) TimerEvent: {}
+[23.142339] (-) TimerEvent: {}
+[23.245375] (-) TimerEvent: {}
+[23.267290] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[23.269095] (locobot_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.346443] (-) TimerEvent: {}
+[23.449372] (-) TimerEvent: {}
+[23.553515] (-) TimerEvent: {}
+[23.655342] (-) TimerEvent: {}
+[23.757334] (-) TimerEvent: {}
+[23.781341] (locobot_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[23.783312] (locobot_autonomy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[23.847600] (locobot_autonomy) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[23.852112] (locobot_autonomy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[23.857330] (-) TimerEvent: {}
+[23.869974] (locobot_autonomy) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[23.892789] (locobot_autonomy) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[23.938633] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[23.953058] (locobot_autonomy) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[23.958322] (-) TimerEvent: {}
+[23.985110] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[24.002708] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[24.059324] (-) TimerEvent: {}
+[24.091842] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[24.107178] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[24.122624] (locobot_autonomy) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[24.124088] (locobot_autonomy) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[24.126298] (locobot_autonomy) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[24.136750] (locobot_autonomy) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[24.141293] (locobot_autonomy) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[24.160283] (-) TimerEvent: {}
+[24.213111] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[24.262330] (-) TimerEvent: {}
+[24.312510] (locobot_autonomy) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[24.363338] (-) TimerEvent: {}
+[24.467339] (-) TimerEvent: {}
+[24.569054] (locobot_autonomy) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[24.569402] (-) TimerEvent: {}
+[24.569537] (locobot_autonomy) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[24.644518] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[24.670335] (-) TimerEvent: {}
+[24.745696] (locobot_autonomy) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[24.772334] (-) TimerEvent: {}
+[24.879330] (-) TimerEvent: {}
+[24.981325] (-) TimerEvent: {}
+[25.009641] (locobot_autonomy) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[25.009995] (locobot_autonomy) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[25.082361] (-) TimerEvent: {}
+[25.185378] (-) TimerEvent: {}
+[25.290427] (-) TimerEvent: {}
+[25.391385] (-) TimerEvent: {}
+[25.492362] (-) TimerEvent: {}
+[25.600809] (-) TimerEvent: {}
+[25.702589] (-) TimerEvent: {}
+[25.804401] (-) TimerEvent: {}
+[25.907347] (-) TimerEvent: {}
+[26.011341] (-) TimerEvent: {}
+[26.112352] (-) TimerEvent: {}
+[26.215338] (-) TimerEvent: {}
+[26.318337] (-) TimerEvent: {}
+[26.421384] (-) TimerEvent: {}
+[26.528179] (-) TimerEvent: {}
+[26.631338] (-) TimerEvent: {}
+[26.732352] (-) TimerEvent: {}
+[26.834383] (-) TimerEvent: {}
+[26.935348] (-) TimerEvent: {}
+[27.037404] (-) TimerEvent: {}
+[27.143349] (-) TimerEvent: {}
+[27.245421] (-) TimerEvent: {}
+[27.347421] (-) TimerEvent: {}
+[27.454357] (-) TimerEvent: {}
+[27.559327] (-) TimerEvent: {}
+[27.662335] (-) TimerEvent: {}
+[27.763340] (-) TimerEvent: {}
+[27.868348] (-) TimerEvent: {}
+[27.973351] (-) TimerEvent: {}
+[28.078337] (-) TimerEvent: {}
+[28.179332] (-) TimerEvent: {}
+[28.280467] (-) TimerEvent: {}
+[28.387894] (-) TimerEvent: {}
+[28.489360] (-) TimerEvent: {}
+[28.590374] (-) TimerEvent: {}
+[28.695396] (-) TimerEvent: {}
+[28.800211] (-) TimerEvent: {}
+[28.907404] (-) TimerEvent: {}
+[29.008364] (-) TimerEvent: {}
+[29.109374] (-) TimerEvent: {}
+[29.212337] (-) TimerEvent: {}
+[29.316456] (-) TimerEvent: {}
+[29.417360] (-) TimerEvent: {}
+[29.520338] (-) TimerEvent: {}
+[29.625344] (-) TimerEvent: {}
+[29.729341] (-) TimerEvent: {}
+[29.831360] (-) TimerEvent: {}
+[29.932373] (-) TimerEvent: {}
+[30.033374] (-) TimerEvent: {}
+[30.135324] (-) TimerEvent: {}
+[30.237369] (-) TimerEvent: {}
+[30.289114] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[30.338339] (-) TimerEvent: {}
+[30.387247] (locobot_autonomy) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[30.439324] (-) TimerEvent: {}
+[30.541372] (-) TimerEvent: {}
+[30.644358] (-) TimerEvent: {}
+[30.646106] (locobot_autonomy) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[30.647364] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[30.745364] (-) TimerEvent: {}
+[30.847332] (-) TimerEvent: {}
+[30.949338] (-) TimerEvent: {}
+[31.019616] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[31.050327] (-) TimerEvent: {}
+[31.154356] (-) TimerEvent: {}
+[31.233286] (locobot_autonomy) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[31.250883] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[31.255328] (-) TimerEvent: {}
+[31.268649] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[31.356356] (-) TimerEvent: {}
+[31.458845] (-) TimerEvent: {}
+[31.467347] (locobot_autonomy) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[31.559884] (-) TimerEvent: {}
+[31.661579] (-) TimerEvent: {}
+[31.682749] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[31.762404] (-) TimerEvent: {}
+[31.866831] (-) TimerEvent: {}
+[31.877077] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[31.878063] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[31.878949] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[31.879788] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[31.880653] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[31.882280] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[31.882667] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[31.883025] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[31.883866] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[31.884830] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[31.885749] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[31.886612] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[31.887610] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[31.888603] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[31.889524] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[31.890460] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[31.891371] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[31.892297] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[31.893285] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[31.894224] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[31.894947] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[31.895352] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[31.895905] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[31.896804] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[31.897812] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[31.914833] (locobot_autonomy) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[31.922401] (locobot_autonomy) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[31.957193] (locobot_autonomy) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[31.963045] (locobot_autonomy) StdoutLine: {'line': b'-- Found la_msgs: 0.0.0 (/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/cmake)\n'}
+[31.970320] (-) TimerEvent: {}
+[32.078342] (-) TimerEvent: {}
+[32.179394] (-) TimerEvent: {}
+[32.280355] (-) TimerEvent: {}
+[32.384368] (-) TimerEvent: {}
+[32.485377] (-) TimerEvent: {}
+[32.589355] (-) TimerEvent: {}
+[32.690576] (-) TimerEvent: {}
+[32.791381] (-) TimerEvent: {}
+[32.795594] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[32.892359] (-) TimerEvent: {}
+[33.001345] (-) TimerEvent: {}
+[33.104998] (-) TimerEvent: {}
+[33.206367] (-) TimerEvent: {}
+[33.307366] (-) TimerEvent: {}
+[33.413077] (-) TimerEvent: {}
+[33.519337] (-) TimerEvent: {}
+[33.624382] (-) TimerEvent: {}
+[33.725343] (-) TimerEvent: {}
+[33.826364] (-) TimerEvent: {}
+[33.927384] (-) TimerEvent: {}
+[34.030378] (-) TimerEvent: {}
+[34.042692] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.131341] (-) TimerEvent: {}
+[34.237331] (-) TimerEvent: {}
+[34.338340] (-) TimerEvent: {}
+[34.439372] (-) TimerEvent: {}
+[34.536421] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.540317] (-) TimerEvent: {}
+[34.629567] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[34.635073] (locobot_autonomy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[34.642334] (-) TimerEvent: {}
+[34.731490] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[34.732684] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.736766] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[34.737106] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[34.743319] (-) TimerEvent: {}
+[34.823680] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[34.844326] (-) TimerEvent: {}
+[34.945363] (-) TimerEvent: {}
+[34.998892] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[35.046331] (-) TimerEvent: {}
+[35.065001] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[35.078515] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[35.080368] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[35.080886] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[35.092045] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[35.092350] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[35.094837] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[35.099002] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[35.101613] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[35.114439] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[35.115121] (locobot_autonomy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[35.117350] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[35.134886] (locobot_autonomy) StdoutLine: {'line': b'-- Configuring done\n'}
+[35.147307] (-) TimerEvent: {}
+[35.249354] (-) TimerEvent: {}
+[35.296948] (locobot_autonomy) StdoutLine: {'line': b'-- Generating done\n'}
+[35.348547] (locobot_autonomy) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy\n'}
+[35.351530] (-) TimerEvent: {}
+[35.367455] (locobot_autonomy) CommandEnded: {'returncode': 0}
+[35.369234] (locobot_autonomy) JobProgress: {'identifier': 'locobot_autonomy', 'progress': 'build'}
+[35.372630] (locobot_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy', 'env': OrderedDict([('VNCDESKTOP', 'f21c1c8778da:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'f21c1c8778da'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/collaborative'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ETrG5lnMvC,guid=3fefd0ad03f26cf318ceecb867ad4c62'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3406'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-NC4I12'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/f21c1c8778da:@/tmp/.ICE-unix/75,unix/f21c1c8778da:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('INTERBOTIX_WS', '/dev_ws'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-NC4I12/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/interbotix_common_modules:/dev_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:05f74369-e74f-4e14-b274-a0a2c37b7632'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/dev_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/dev_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[35.452331] (-) TimerEvent: {}
+[35.553375] (-) TimerEvent: {}
+[35.657448] (-) TimerEvent: {}
+[35.711795] (locobot_autonomy) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[35.758379] (-) TimerEvent: {}
+[35.823479] (locobot_autonomy) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[35.859358] (-) TimerEvent: {}
+[35.869019] (locobot_autonomy) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_locobot_autonomy\n'}
+[35.960353] (-) TimerEvent: {}
+[36.061358] (-) TimerEvent: {}
+[36.162350] (-) TimerEvent: {}
+[36.266486] (-) TimerEvent: {}
+[36.366288] (locobot_autonomy) StdoutLine: {'line': b'running egg_info\n'}
+[36.366900] (-) TimerEvent: {}
+[36.367432] (locobot_autonomy) StdoutLine: {'line': b'creating locobot_autonomy.egg-info\n'}
+[36.368184] (locobot_autonomy) StdoutLine: {'line': b'writing locobot_autonomy.egg-info/PKG-INFO\n'}
+[36.368880] (locobot_autonomy) StdoutLine: {'line': b'writing dependency_links to locobot_autonomy.egg-info/dependency_links.txt\n'}
+[36.370583] (locobot_autonomy) StdoutLine: {'line': b'writing top-level names to locobot_autonomy.egg-info/top_level.txt\n'}
+[36.372341] (locobot_autonomy) StdoutLine: {'line': b"writing manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[36.385954] (locobot_autonomy) StdoutLine: {'line': b"reading manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[36.388858] (locobot_autonomy) StdoutLine: {'line': b"writing manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[36.467343] (-) TimerEvent: {}
+[36.474704] (locobot_autonomy) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_generator_c.dir/rosidl_generator_c/locobot_autonomy/action/detail/move_base__functions.c.o\x1b[0m\n'}
+[36.478335] (locobot_autonomy) StdoutLine: {'line': b'[  9%] Built target locobot_autonomy__cpp\n'}
+[36.486300] (locobot_autonomy) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_locobot_autonomy_egg\n'}
+[36.568356] (-) TimerEvent: {}
+[36.590039] (locobot_autonomy) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[36.590635] (locobot_autonomy) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[36.590902] (locobot_autonomy) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[36.669345] (-) TimerEvent: {}
+[36.772366] (-) TimerEvent: {}
+[36.873371] (-) TimerEvent: {}
+[36.921598] (locobot_autonomy) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library liblocobot_autonomy__rosidl_generator_c.so\x1b[0m\n'}
+[36.977343] (-) TimerEvent: {}
+[37.078396] (-) TimerEvent: {}
+[37.118085] (locobot_autonomy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/locobot_autonomy/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[37.180351] (-) TimerEvent: {}
+[37.195334] (locobot_autonomy) StdoutLine: {'line': b'[ 25%] Built target locobot_autonomy__rosidl_generator_c\n'}
+[37.260345] (locobot_autonomy) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/locobot_autonomy/action/detail/move_base__type_support.cpp.o\x1b[0m\n'}
+[37.262879] (locobot_autonomy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c.dir/build.make:148: rosidl_typesupport_fastrtps_c/locobot_autonomy/action/detail/move_base__rosidl_typesupport_fastrtps_c.h] Illegal instruction\n'}
+[37.263451] (locobot_autonomy) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c.dir/all] Error 2\n'}
+[37.263996] (locobot_autonomy) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[37.281326] (-) TimerEvent: {}
+[37.290313] (locobot_autonomy) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/locobot_autonomy/action/detail/dds_fastrtps/move_base__type_support.cpp.o\x1b[0m\n'}
+[37.318148] (locobot_autonomy) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[37.323135] (locobot_autonomy) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[37.382349] (-) TimerEvent: {}
+[37.483510] (-) TimerEvent: {}
+[37.585507] (-) TimerEvent: {}
+[37.687484] (-) TimerEvent: {}
+[37.792382] (-) TimerEvent: {}
+[37.893370] (-) TimerEvent: {}
+[37.920128] (locobot_autonomy) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_c.dir/rosidl_typesupport_c/locobot_autonomy/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[37.996372] (-) TimerEvent: {}
+[38.065685] (locobot_autonomy) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[38.069877] (locobot_autonomy) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/locobot_autonomy/action/detail/move_base__type_support.c.o\x1b[0m\n'}
+[38.097357] (-) TimerEvent: {}
+[38.198837] (-) TimerEvent: {}
+[38.302430] (-) TimerEvent: {}
+[38.390629] (locobot_autonomy) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_c.so\x1b[0m\n'}
+[38.392973] (locobot_autonomy) StdoutLine: {'line': b'[ 51%] Built target locobot_autonomy__rosidl_typesupport_cpp\n'}
+[38.403327] (-) TimerEvent: {}
+[38.419314] (locobot_autonomy) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[38.430798] (locobot_autonomy) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[38.504600] (-) TimerEvent: {}
+[38.512615] (locobot_autonomy) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library liblocobot_autonomy__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[38.605596] (-) TimerEvent: {}
+[38.647384] (locobot_autonomy) StdoutLine: {'line': b'[ 61%] Built target locobot_autonomy__rosidl_typesupport_c\n'}
+[38.702362] (locobot_autonomy) StdoutLine: {'line': b'[ 61%] Built target locobot_autonomy__rosidl_typesupport_fastrtps_cpp\n'}
+[38.706289] (-) TimerEvent: {}
+[38.709201] (locobot_autonomy) StdoutLine: {'line': b'[ 61%] Built target locobot_autonomy__rosidl_typesupport_introspection_cpp\n'}
+[38.753879] (locobot_autonomy) StdoutLine: {'line': b'[ 61%] Built target locobot_autonomy__rosidl_typesupport_introspection_c\n'}
+[38.759047] (locobot_autonomy) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.766990] (locobot_autonomy) CommandEnded: {'returncode': 2}
+[38.779122] (locobot_autonomy) JobEnded: {'identifier': 'locobot_autonomy', 'rc': 2}
+[38.791184] (-) EventReactorShutdown: {}

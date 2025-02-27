@@ -1,0 +1,4 @@
+source;share/stanford_locobot/local_setup.bash
+source;share/stanford_locobot/local_setup.dsv
+source;share/stanford_locobot/local_setup.sh
+source;share/stanford_locobot/local_setup.zsh

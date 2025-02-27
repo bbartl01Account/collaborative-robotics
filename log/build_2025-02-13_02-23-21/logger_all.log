@@ -1,0 +1,335 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffffe1f4550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffffe1bffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffffe1bffd0>>)
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Desktop/collaborative/collaborative-robotics'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(API Scripts) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(Docker) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/build) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/build) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/install) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/install) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/log) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/log) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/la_msgs) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'ros/collab_ws/src/collaborative_robotics_course/la_msgs' with type 'ros.ament_cmake' and name 'la_msgs'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy' with type 'ros.ament_cmake' and name 'locobot_autonomy'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ros/collab_ws/src/stanford_locobot) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'ros/collab_ws/src/stanford_locobot' with type 'ros.ament_cmake' and name 'stanford_locobot'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /dev_ws/install
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 448 installed packages in /opt/ros/humble
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'la_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs', 'merge_install': False, 'path': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'stanford_locobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'stanford_locobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot', 'merge_install': False, 'path': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot', 'symlink_install': False, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'locobot_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'locobot_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy', 'merge_install': False, 'path': '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy', 'symlink_install': False, 'test_result_base': None}
+[0.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs'
+[0.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot
+[3.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/stanford_locobot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot -- -j8 -l8
+[4.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot -- -j8 -l8
+[4.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot
+[4.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stanford_locobot)
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot' for CMake module files
+[4.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/stanford_locobot
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot' for CMake config files
+[4.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanford_locobot', 'cmake_prefix_path')
+[4.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.ps1'
+[4.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.dsv'
+[4.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.sh'
+[4.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/bin'
+[4.463s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/lib/pkgconfig/stanford_locobot.pc'
+[4.464s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/lib/python3.10/site-packages'
+[4.465s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/bin'
+[4.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.ps1'
+[4.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.dsv'
+[4.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.sh'
+[4.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.bash'
+[4.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.zsh'
+[4.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/colcon-core/packages/stanford_locobot)
+[4.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stanford_locobot)
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot' for CMake module files
+[4.479s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot' for CMake config files
+[4.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanford_locobot', 'cmake_prefix_path')
+[4.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.ps1'
+[4.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.dsv'
+[4.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/hook/cmake_prefix_path.sh'
+[4.483s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/bin'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/lib/pkgconfig/stanford_locobot.pc'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/lib/python3.10/site-packages'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/bin'
+[4.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.ps1'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.dsv'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.sh'
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.bash'
+[4.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/stanford_locobot/package.zsh'
+[4.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/stanford_locobot/share/colcon-core/packages/stanford_locobot)
+[8.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs
+[8.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs -- -j8 -l8
+[19.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs -- -j8 -l8
+[19.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs
+[19.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[19.459s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs' for CMake module files
+[19.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/la_msgs
+[19.463s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs' for CMake config files
+[19.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[19.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[19.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[19.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[19.472s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib'
+[19.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[19.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[19.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[19.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[19.475s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/bin'
+[19.475s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/python3.10/site-packages'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/bin'
+[19.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.ps1'
+[19.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.dsv'
+[19.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.sh'
+[19.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.bash'
+[19.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.zsh'
+[19.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/colcon-core/packages/la_msgs)
+[19.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[19.482s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs' for CMake module files
+[19.483s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs' for CMake config files
+[19.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[19.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[19.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[19.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[19.489s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib'
+[19.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[19.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[19.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[19.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[19.491s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/bin'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib/python3.10/site-packages'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/bin'
+[19.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.ps1'
+[19.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.dsv'
+[19.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.sh'
+[19.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.bash'
+[19.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/la_msgs/package.zsh'
+[19.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/share/colcon-core/packages/la_msgs)
+[19.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy' with build type 'ament_cmake'
+[19.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy'
+[19.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy
+[35.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/Desktop/collaborative/collaborative-robotics/ros/collab_ws/src/collaborative_robotics_course/locobot_autonomy -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy
+[35.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy -- -j8 -l8
+[39.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs:/dev_ws/install/moveit_visual_tools:/dev_ws/install/interbotix_xslocobot_moveit:/dev_ws/install/interbotix_xslocobot_ros_control:/dev_ws/install/interbotix_xslocobot_sim:/dev_ws/install/interbotix_xslocobot_nav:/dev_ws/install/interbotix_xslocobot_joy:/dev_ws/install/interbotix_xslocobot_control:/dev_ws/install/interbotix_xslocobot_descriptions:/dev_ws/install/interbotix_xs_toolbox:/dev_ws/install/interbotix_xs_rviz:/dev_ws/install/interbotix_ros_xseries:/dev_ws/install/interbotix_xs_sdk:/dev_ws/install/interbotix_xs_ros_control:/dev_ws/install/interbotix_common_toolbox:/dev_ws/install/interbotix_gravity_compensation:/dev_ws/install/interbotix_xs_msgs:/dev_ws/install/interbotix_xs_driver:/dev_ws/install/interbotix_tf_tools:/dev_ws/install/interbotix_common_sim:/dev_ws/install/dynamixel_workbench_toolbox:/dev_ws/install/interbotix_xs_modules:/dev_ws/install/interbotix_common_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/lib:/dev_ws/install/moveit_visual_tools/lib:/dev_ws/install/interbotix_xs_rviz/lib:/dev_ws/install/interbotix_xs_ros_control/lib:/dev_ws/install/interbotix_xs_msgs/lib:/dev_ws/install/interbotix_xs_driver/lib:/dev_ws/install/interbotix_tf_tools/lib:/dev_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/la_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/collaborative/collaborative-robotics/build/locobot_autonomy -- -j8 -l8
+[39.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locobot_autonomy)
+[39.082s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy' for CMake module files
+[39.083s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy' for CMake config files
+[39.084s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/bin'
+[39.084s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/lib/pkgconfig/locobot_autonomy.pc'
+[39.085s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/lib/python3.10/site-packages'
+[39.085s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/bin'
+[39.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/locobot_autonomy/package.ps1'
+[39.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/locobot_autonomy/package.dsv'
+[39.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/locobot_autonomy/package.sh'
+[39.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/locobot_autonomy/package.bash'
+[39.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/locobot_autonomy/package.zsh'
+[39.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/locobot_autonomy/share/colcon-core/packages/locobot_autonomy)
+[39.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[39.103s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.113s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.537s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/local_setup.ps1'
+[39.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/_local_setup_util_ps1.py'
+[39.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/setup.ps1'
+[39.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/local_setup.sh'
+[39.552s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/_local_setup_util_sh.py'
+[39.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/setup.sh'
+[39.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/local_setup.bash'
+[39.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/setup.bash'
+[39.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/local_setup.zsh'
+[39.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/collaborative/collaborative-robotics/install/setup.zsh'

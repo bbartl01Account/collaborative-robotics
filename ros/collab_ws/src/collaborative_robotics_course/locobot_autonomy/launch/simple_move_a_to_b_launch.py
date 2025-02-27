@@ -14,8 +14,16 @@ def generate_launch_description():
 
     return LaunchDescription([
         Node(
+            #package='locobot_autonomy',
+            #executable='move_A_to_B_py.py',
+            #name='simple_move_A_to_B_py'
             package='locobot_autonomy',
-            executable='move_A_to_B_py.py',
-            name='simple_move_A_to_B_py'
+            executable='circle_drive.py',
+            name='circle_drive_py'
+        ),
+        Node(
+            package='locobot_autonomy',
+            executable='imageConverter.py',
+            name='image_converter_py'
         ),
     ])
